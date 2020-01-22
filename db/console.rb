@@ -21,6 +21,7 @@ album2.save
 
 album3 = Album.new({"album_title"=>"OK Album", "album_genre"=>"Rock", "album_artist_id"=>artist1.id})
 album3.save
+
 binding.pry
 artist1.all_albums_by_artist()
 nil

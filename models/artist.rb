@@ -43,5 +43,5 @@ class Artist
     return artist_albums
   end
 
-
+  
 end
